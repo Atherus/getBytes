@@ -1,0 +1,9 @@
+c:\users\peter\documents\visual studio 2012\Projects\GetBytes\GetBytes\bin\Debug\GetBytes.exe.config
+c:\users\peter\documents\visual studio 2012\Projects\GetBytes\GetBytes\bin\Debug\GetBytes.exe
+c:\users\peter\documents\visual studio 2012\Projects\GetBytes\GetBytes\bin\Debug\GetBytes.pdb
+c:\users\peter\documents\visual studio 2012\Projects\GetBytes\GetBytes\obj\Debug\GetBytes.csprojResolveAssemblyReference.cache
+c:\users\peter\documents\visual studio 2012\Projects\GetBytes\GetBytes\obj\Debug\GetBytes.Form1.resources
+c:\users\peter\documents\visual studio 2012\Projects\GetBytes\GetBytes\obj\Debug\GetBytes.Properties.Resources.resources
+c:\users\peter\documents\visual studio 2012\Projects\GetBytes\GetBytes\obj\Debug\GetBytes.csproj.GenerateResource.Cache
+c:\users\peter\documents\visual studio 2012\Projects\GetBytes\GetBytes\obj\Debug\GetBytes.exe
+c:\users\peter\documents\visual studio 2012\Projects\GetBytes\GetBytes\obj\Debug\GetBytes.pdb

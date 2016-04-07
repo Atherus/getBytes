@@ -1,0 +1,12 @@
+c:\users\peter\documents\visual studio 2012\Projects\GetBytes\GetBytes\bin\Release\GetBytes.exe.config
+c:\users\peter\documents\visual studio 2012\Projects\GetBytes\GetBytes\bin\Release\GetBytes.exe
+c:\users\peter\documents\visual studio 2012\Projects\GetBytes\GetBytes\bin\Release\GetBytes.pdb
+c:\users\peter\documents\visual studio 2012\Projects\GetBytes\GetBytes\obj\Release\GetBytes.Properties.Resources.resources
+c:\users\peter\documents\visual studio 2012\Projects\GetBytes\GetBytes\obj\Release\GetBytes.csproj.GenerateResource.Cache
+c:\users\peter\documents\visual studio 2012\Projects\GetBytes\GetBytes\obj\Release\GetBytes.exe
+c:\users\peter\documents\visual studio 2012\Projects\GetBytes\GetBytes\obj\Release\GetBytes.pdb
+C:\Users\Peter\documents\visual studio 2012\Projects\GetBytes\GetBytes\obj\Release\GetBytes.csprojResolveAssemblyReference.cache
+C:\Users\Peter\documents\visual studio 2012\Projects\GetBytes\GetBytes\obj\Release\GetBytes.GetBytes.resources
+C:\Users\Peter\Documents\GitHub\getBytes\GetBytes\bin\Release\GetBytes.exe.config
+C:\Users\Peter\Documents\GitHub\getBytes\GetBytes\obj\Release\GetBytes.exe
+C:\Users\Peter\Documents\GitHub\getBytes\GetBytes\obj\Release\GetBytes.pdb
