@@ -16,7 +16,7 @@ namespace GetBytes
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new GetBytes());
+            Application.Run(new app_GetBytes());
         }
     }
 }

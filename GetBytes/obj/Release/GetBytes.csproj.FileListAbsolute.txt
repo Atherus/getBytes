@@ -10,3 +10,15 @@ C:\Users\Peter\documents\visual studio 2012\Projects\GetBytes\GetBytes\obj\Relea
 C:\Users\Peter\Documents\GitHub\getBytes\GetBytes\bin\Release\GetBytes.exe.config
 C:\Users\Peter\Documents\GitHub\getBytes\GetBytes\obj\Release\GetBytes.exe
 C:\Users\Peter\Documents\GitHub\getBytes\GetBytes\obj\Release\GetBytes.pdb
+C:\Users\Peter\Documents\GitHub\getBytes\GetBytes\bin\Release\GetBytes.exe
+C:\Users\Peter\Documents\GitHub\getBytes\GetBytes\bin\Release\GetBytes.pdb
+C:\Users\Peter\Documents\GitHub\getBytes\GetBytes\obj\Release\GetBytes.csprojResolveAssemblyReference.cache
+C:\Users\Peter\Documents\GitHub\getBytes\GetBytes\obj\Release\GetBytes.Properties.Resources.resources
+C:\Users\Peter\Documents\GitHub\getBytes\GetBytes\obj\Release\GetBytes.csproj.GenerateResource.Cache
+C:\Users\Peter\Documents\GitHub\getBytes\GetBytes\obj\Release\GetBytes.app_GetBytes.resources
+C:\Users\Peter\Documents\GitHub\getBytes\GetBytes\bin\Release\en\GetBytes.resources.dll
+C:\Users\Peter\Documents\GitHub\getBytes\GetBytes\bin\Release\sk\GetBytes.resources.dll
+C:\Users\Peter\Documents\GitHub\getBytes\GetBytes\obj\Release\GetBytes.Language.en.resources
+C:\Users\Peter\Documents\GitHub\getBytes\GetBytes\obj\Release\GetBytes.Language.sk.resources
+C:\Users\Peter\Documents\GitHub\getBytes\GetBytes\obj\Release\en\GetBytes.resources.dll
+C:\Users\Peter\Documents\GitHub\getBytes\GetBytes\obj\Release\sk\GetBytes.resources.dll

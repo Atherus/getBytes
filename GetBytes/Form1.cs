@@ -4,16 +4,34 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.IO;
+using System.Globalization;
+using System.Resources;
 
 namespace GetBytes {
-    public partial class GetBytes : Form {
+    public partial class app_GetBytes : Form {
 
         public String formatType = FormatTypesEnum.formatTypes.Base64.ToString();
+        ResourceManager rm = new ResourceManager("GetBytes.Language", typeof(app_GetBytes).Assembly);
+        CultureInfo cul = CultureInfo.CreateSpecificCulture("sk");
 
-        public GetBytes() {
+        public app_GetBytes() {
             InitializeComponent();
-            labelFormat.Text = formatType;
+            labelText_format.Text = formatType;
             Application.EnableVisualStyles();
+
+            setLabelTexts();
+        }
+
+        private void setLabelTexts() {
+            label_format.Text = rm.GetString("label_format", cul);
+            label_bytes.Text = rm.GetString("label_bytes", cul);
+            label_path.Text = rm.GetString("label_path", cul);
+            label_size.Text = rm.GetString("label_size", cul);
+            button_GetBytes.Text = rm.GetString("button_getBytes", cul);
+            button_MakeFile.Text = rm.GetString("button_makeFile", cul);
+            toolStripMenuItem_about.Text = rm.GetString("menu_about", cul);
+            toolStripMenuItem_format.Text = rm.GetString("menu_format", cul);
+            toolStripMenuItem_language.Text = rm.GetString("menu_language", cul);
         }
 
         private void buttonGetBytes_Click(object sender, EventArgs e) {
@@ -79,7 +97,7 @@ namespace GetBytes {
         }
 
         private void getFileSize(String filePath) {
-            labelSize.Text = File.ReadAllBytes(filePath).Length.ToString() + "bytes";
+            labelText_size.Text = File.ReadAllBytes(filePath).Length.ToString() + "bytes";
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e) {
@@ -87,21 +105,25 @@ namespace GetBytes {
         }
 
         private void rawToolStripMenuItem_Click(object sender, EventArgs e) {
-            labelFormat.Text = FormatTypesEnum.formatTypes.Raw.ToString();
+            labelText_format.Text = FormatTypesEnum.formatTypes.Raw.ToString();
             formatType = FormatTypesEnum.formatTypes.Raw.ToString();
         }
 
         private void base64ToolStripMenuItem_Click(object sender, EventArgs e) {
-            labelFormat.Text = FormatTypesEnum.formatTypes.Base64.ToString();
+            labelText_format.Text = FormatTypesEnum.formatTypes.Base64.ToString();
             formatType = FormatTypesEnum.formatTypes.Base64.ToString();
         }
 
         private void slovakToolStripMenuItem_Click(object sender, EventArgs e) {
-
+            cul = CultureInfo.CreateSpecificCulture("sk");
+            setLabelTexts();
+            Refresh();
         }
 
         private void englishToolStripMenuItem_Click(object sender, EventArgs e) {
-
+            cul = CultureInfo.CreateSpecificCulture("en");
+            setLabelTexts();
+            Refresh();
         }
     }
 }
